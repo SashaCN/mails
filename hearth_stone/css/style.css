@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+td{
+    padding: 0;
+}
 .main{
     font-family: "Arial";
     max-width: 600px;
@@ -9,12 +12,35 @@ body{
     border-collapse: collapse;
     border-spacing: 0;
 }
-.content{
+.content,
+.live p{
     padding-left: 50px;
     padding-right: 50px;
 }
+.gift{
+    padding-left: 31px;
+    padding-right: 31px;
+}
 .bg img{
     width: 100%;
+}
+.button-line{
+    text-align: center;
+}
+.button{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #fffff8;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: -53px;
+}
+.another-card{
+    font-size: 24px;
+    margin-top: -55px;
 }
 h1,
 h2{
@@ -22,17 +48,41 @@ h2{
     color: #20b4bb;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+}
+.gidt h1{
+    text-transform: uppercase;
 }
 h2{
     color: #bcbcbd;
+    margin-bottom: 40px;
+}
+h1 p{
+    margin: 0;
+    color: #9f15a9;
+}
+.subtitle{
+    font-size: 24px;
+    text-transform: none;
+    color: #bcbcbd;
+}
+.term{
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #85908c;
+    text-align: center;
 }
 .new-card{
     font-size: 55px;
 }
-p{
+.about{
     font-size: 14px;
     line-height: 22px;
     color: #86918c; 
+}
+.mb{
+    margin-bottom: 40px;
 }
 b{
     color: #e8a336;
@@ -41,6 +91,26 @@ b{
     color: #fa5d26;
     text-decoration: none;
 }
-.button-text:hover{
-    text-decoration: underline;
+.live{
+    padding-bottom: 60px;
+}
+.live h2{
+    padding-left: 37px;
+    padding-right: 37px;
+}
+.line{
+    margin-bottom: -15px;
+}
+.footer{
+    padding-top: 50px;
+    background-color: #eed3a8;
+}
+.social-text{
+    color: #000;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.footer h1{
+    color: #263870;
+    margin-bottom: 50px;
 }
