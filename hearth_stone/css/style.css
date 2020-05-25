@@ -1,16 +1,30 @@
 body{
     margin: 0;
 }
-td{
-    padding: 0;
-}
 .main{
     font-family: "Arial";
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
     background-color: #0d131b;
     border-collapse: collapse;
     border-spacing: 0;
+}
+td{
+    padding: 0;
+}
+h1,
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    color: #20b4bb;
+}
+h2{
+    color: #bcbcbd;
+    margin-bottom: 40px;
 }
 .content,
 .live p{
@@ -21,14 +35,36 @@ td{
     padding-left: 31px;
     padding-right: 31px;
 }
+.gift h2,
+.complects{
+    line-height: 43px;
+
+}
+.gift h2,
+.complects,
+.subtitle{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #20b4bb;
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.complects{
+    color: #9f15a9;
+}
+.subtitle{
+    margin-bottom: 40px;
+}
 .bg img{
     width: 100%;
 }
 .button-line{
     text-align: center;
+    margin-bottom: 20px;
 }
 .button{
-    display: block;
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
@@ -36,30 +72,16 @@ td{
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    margin-top: -53px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    background-color: #9f15a9;
 }
 .another-card{
     font-size: 24px;
-    margin-top: -55px;
-}
-h1,
-h2{
-    font-size: 36px;
-    color: #20b4bb;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-}
-.gidt h1{
-    text-transform: uppercase;
-}
-h2{
-    color: #bcbcbd;
-    margin-bottom: 40px;
-}
-h1 p{
-    margin: 0;
-    color: #9f15a9;
+    margin-bottom: 30px;
 }
 .subtitle{
     font-size: 24px;
@@ -98,8 +120,8 @@ b{
     padding-left: 37px;
     padding-right: 37px;
 }
-.line{
-    margin-bottom: -15px;
+.bg-line{
+    background-color: #eed3a8;
 }
 .footer{
     padding-top: 50px;
@@ -108,9 +130,14 @@ b{
 .social-text{
     color: #000;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 35px;
 }
-.footer h1{
+.footer h2{
     color: #263870;
     margin-bottom: 50px;
+}
+.social{
+    text-align: center;
 }
